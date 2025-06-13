@@ -1,4 +1,4 @@
-<img width="676" alt="image" src="https://github.com/user-attachments/assets/82dd4d37-20bd-4358-9a72-688f7322b303" /><img width="979" alt="image" src="https://github.com/user-attachments/assets/2c45b5fd-72a7-4f45-9cf6-a84655d53fd0" /># 2025-06-13 국민대학교 웹서버 컴퓨팅 팀:콰삭킹(배경준, 이상진, 황찬우)  
+# 2025-06-13 국민대학교 웹서버 컴퓨팅 팀:콰삭킹(배경준, 이상진, 황찬우)  
 
 ## 메인화면(127.0.0.1)
 <img width="985" alt="image" src="https://github.com/user-attachments/assets/31a5ffe5-5cac-44c8-9ada-3aec1311bc6e" />  
