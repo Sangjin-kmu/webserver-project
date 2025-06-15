@@ -172,7 +172,7 @@ style.css: 사용자 정의 스타일 시트
 ### media/ : 사용자 업로드 파일이 저장되는 폴더입니다.
 
 ### book_covers/: 도서 표지 이미지 파일들이 저장됩니다. Django 설정의 MEDIA_ROOT 경로와 연동되어 작동합니다.  
-  
+  ------------------------------------------------------------------------  
 # 구현 사진  
 ## 메인화면(127.0.0.1)  
 <img width="985" alt="image" src="https://github.com/user-attachments/assets/31a5ffe5-5cac-44c8-9ada-3aec1311bc6e" />  
