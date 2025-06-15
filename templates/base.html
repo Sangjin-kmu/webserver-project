@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>도서 웹사이트</title>
+    <!-- ✅ Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 min-h-screen font-sans">
+
+    <div class="container max-w-screen-lg mx-auto px-4 py-6">
+        <!-- 🔷 헤더 -->
+        <header class="mb-6">
+            <h1 class="text-3xl font-bold text-blue-600 mb-2">📘 도서 웹사이트</h1>
+
+            <!-- 🔗 내비게이션 -->
+            <nav class="space-x-4 text-blue-700 font-medium" aria-label="Main navigation">
+                <a href="{% url 'common:book_list' %}" class="hover:underline">책 목록</a>
+                <a href="{% url 'common:book_add' %}" class="hover:underline">책 등록</a>
+                <a href="/request-info/" class="hover:underline">요청정보</a>
+
+                {% if user.is_authenticated %}
+                    <a href="{% url 'common:home' %}" class="hover:underline">내 홈</a>
+                    <a href="{% url 'common:logout' %}" class="hover:underline">로그아웃</a>
+                {% else %}
+                    <a href="{% url 'common:login' %}" class="hover:underline">로그인</a>
+                    <a href="{% url 'common:signup' %}" class="hover:underline">회원가입</a>
+                {% endif %}
+            </nav>
+        </header>
+
+        <!-- 🔽 페이지별 콘텐츠 영역 -->
+        <main>
+            {% block content %}
+            {% endblock %}
+        </main>
+    </div>
+
+</body>
+</html>
