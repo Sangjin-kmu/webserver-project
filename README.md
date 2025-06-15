@@ -5,7 +5,7 @@
 <img width="985" alt="image" src="https://github.com/user-attachments/assets/31a5ffe5-5cac-44c8-9ada-3aec1311bc6e" />  
   
 ## 디렉토리 구조
-₩₩₩
+```
 kwasaking_code/
 ├── 콰삭킹-코드/
 │   ├── manage.py
@@ -93,7 +93,8 @@ kwasaking_code/
 │   │   ├── book_covers/
 │   │   │   ├── 이미지
 
-₩₩₩
+```
+  
 ## 로그인 전  
   
 ### 책 정보(http://127.0.0.1:8000/book/8/)  
