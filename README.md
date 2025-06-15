@@ -4,6 +4,96 @@
 ## 메인화면(127.0.0.1)
 <img width="985" alt="image" src="https://github.com/user-attachments/assets/31a5ffe5-5cac-44c8-9ada-3aec1311bc6e" />  
   
+## 디렉토리 구조
+₩₩₩
+kwasaking_code/
+├── 콰삭킹-코드/
+│   ├── manage.py
+│   ├── db.sqlite3
+│   ├── .gitignore
+│   ├── pybo/
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── forms.py
+│   │   ├── models.py
+│   │   ├── tests.py
+│   │   ├── urls.py
+│   │   ├── views/
+│   │   │   ├── base_views.py
+│   │   │   ├── question_views.py
+│   │   │   ├── answer_views.py
+│   │   │   ├── comment_views.py
+│   │   │   ├── vote_views.py
+│   │   ├── templatetags/
+│   │   │   ├── pybo_filter.py
+│   │   ├── migrations/
+│   │   │   ├── 0001_initial.py
+│   │   │   ├── 0002_question_author.py
+│   │   │   ├── 0003_answer_author.py
+│   │   │   ├── 0004_auto_20200507_1149.py
+│   │   │   ├── 0005_comment.py
+│   │   │   ├── 0006_auto_20200507_1449.py
+│   │   │   ├── 0007_alter_answer_id_alter_comment_id_alter_question_id.py
+│
+│   ├── config/
+│   │   ├── __init__.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   ├── wsgi.py
+│   │   ├── asgi.py
+│
+│   ├── common/
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   ├── forms.py
+│   │   ├── views.py
+│   │   ├── urls.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── middleware.py
+│   │   ├── templatetags/
+│   │   │   ├── markdown_comments.py
+│   │   ├── migrations/
+│   │   │   ├── 0001_initial.py
+│   │   │   ├── 0002_book_views.py
+│   │   │   ├── 0003_comment.py
+│   │   │   ├── 0004_book_category_book_description_book_image_book_isbn_and_more.py
+│   │   │   ├── 0005_borrowhistory.py
+│
+│   ├── static/
+│   │   ├── bootstrap.min.css
+│   │   ├── bootstrap.min.js
+│   │   ├── jquery-3.4.1.min.js
+│   │   ├── style.css
+│
+│   ├── templates/
+│   │   ├── base.html
+│   │   ├── home.html
+│   │   ├── navbar.html
+│   │   ├── login.html
+│   │   ├── signup.html
+│   │   ├── book_list.html
+│   │   ├── book_detail.html
+│   │   ├── book_add.html
+│   │   ├── borrow_history.html
+│   │   ├── request_info.html
+│   │   ├── form_errors.html
+│   │   ├── pybo/
+│   │   │   ├── question_list.html
+│   │   │   ├── question_detail.html
+│   │   │   ├── question_form.html
+│   │   │   ├── answer_form.html
+│   │   │   ├── comment_form.html
+│   │   ├── common/
+│   │   │   ├── login.html
+│   │   │   ├── signup.html
+│
+│   ├── media/
+│   │   ├── book_covers/
+│   │   │   ├── 이미지
+
+₩₩₩
 ## 로그인 전  
   
 ### 책 정보(http://127.0.0.1:8000/book/8/)  
